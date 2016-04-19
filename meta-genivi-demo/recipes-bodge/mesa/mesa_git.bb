@@ -5,7 +5,7 @@ DEFAULT_PREFERENCE = "-1"
 SRCREV = "ea0d1f575c214c09ba3df12644a960e86e031766"
 PV = "10.5.4+git${SRCPV}"
 
-SRC_URI = "git://anongit.freedesktop.org/git/mesa/mesa;branch=10.5"
+SRC_URI = "git://anongit.freedesktop.org/git/mesa/mesa;branch=10.5;protocol=http"
 
 S = "${WORKDIR}/git"
 

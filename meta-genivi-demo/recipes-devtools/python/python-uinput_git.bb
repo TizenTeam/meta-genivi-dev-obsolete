@@ -5,7 +5,7 @@ LIC_FILES_CHKSUM = "file://COPYING;md5=f27defe1e96c2e1ecd4e0c9be8967949"
 DEPENDS = "python udev"
 RDEPENDS_${PN} = "python-core python-ctypes python-distutils"
 
-SRC_URI = "git://github.com/tuomasjjrasanen/python-uinput;branch=master;protocol=git"
+SRC_URI = "git://github.com/tuomasjjrasanen/python-uinput;branch=master;protocol=http"
 SRCREV = "1c37e30e57d005d56630048505f79f8202e14dd0"
 
 S = "${WORKDIR}/git"

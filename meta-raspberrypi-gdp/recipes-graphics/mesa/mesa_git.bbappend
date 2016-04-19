@@ -6,7 +6,7 @@ PV="11.0-git${SRCPV}"
 FILESEXTRAPATHS_prepend := "${THISDIR}/${BPN}:"
 
 SRC_URI = "\
-    git://anongit.freedesktop.org/mesa/mesa.git;branch=11.0 \
+    git://anongit.freedesktop.org/mesa/mesa.git;branch=11.0;protocol=http \
     file://nir_include_dirs.patch \ 
 "
 
